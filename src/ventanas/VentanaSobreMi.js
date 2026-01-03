@@ -12,7 +12,7 @@ function VentanaSobreMi({ onClose, isMobile }) {
     setTimeout(() => {
       onClose();
 
-    }, 350);
+    }, 10);
   };
 
   const [loading, setLoading] = useState(isMobile);
@@ -29,7 +29,7 @@ function VentanaSobreMi({ onClose, isMobile }) {
         }
         return prev + 1; 
       });
-    }, 40); 
+    }, 10000); 
     
     return () => clearInterval(timer);
    } else {
@@ -104,7 +104,7 @@ function VentanaSobreMi({ onClose, isMobile }) {
         <div className={`ventana ${isMobile ? "mobile" : "desktop"}`}>
             <div className={`ventana-sobre-mi ${estado}`}>
                 <div className='barra-ventana'>
-                    <img src={iconosobremi} className='icono-contacto'/>
+                    <img src={iconosobremi} className='icono-contacto' alt='icono sobre mi'/>
                     <span className='titulo-ventana'>Sobre Mi</span>
                     <button className='boton-cerrar-sobremi' onClick={cerrar}>X</button>
             </div>
