@@ -1,16 +1,31 @@
 {
   "files": {
-    "main.css": "/alan-portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/alan-portfolio/static/js/main.cc5bf62b.js",
+    "main.css": "/alan-portfolio/static/css/main.4c2f5b21.css",
+    "main.js": "/alan-portfolio/static/js/main.1e164cdf.js",
     "static/js/453.b440d27e.chunk.js": "/alan-portfolio/static/js/453.b440d27e.chunk.js",
-    "static/media/logo.svg": "/alan-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/fondobloqueo.png": "/alan-portfolio/static/media/fondobloqueo.6a12d057e4efd2019d77.png",
+    "static/media/imagProyecto1.png": "/alan-portfolio/static/media/imagProyecto1.ab34506353bc26b2748c.png",
+    "static/media/fondodesbloqueom.png": "/alan-portfolio/static/media/fondodesbloqueom.31937fbb91e0528bd0b5.png",
+    "static/media/fondohomem.png": "/alan-portfolio/static/media/fondohomem.403b2f904c6a5d52e898.png",
+    "static/media/fondohome.png": "/alan-portfolio/static/media/fondohome.a766e13219a0274aefb3.png",
+    "static/media/logo.svg": "/alan-portfolio/static/media/logo.0e10f4bf0e6736d5530e36f16bda47fe.svg",
+    "static/media/logo2.svg": "/alan-portfolio/static/media/logo2.e34549398d38b2697ce84bc302bc000e.svg",
+    "static/media/foto-perfil.jpg": "/alan-portfolio/static/media/foto-perfil.c40dbfaede73f31a238f.jpg",
+    "static/media/seccionsobremi.png": "/alan-portfolio/static/media/seccionsobremi.eaeb409b16a70fd17c62.png",
+    "static/media/pantallacarga.png": "/alan-portfolio/static/media/pantallacarga.911338c02e5add0fc24c.png",
+    "static/media/logoSobreMi.svg": "/alan-portfolio/static/media/logoSobreMi.823fde7e9b7e3dc43e965a19845350d0.svg",
+    "static/media/logoProyecto.svg": "/alan-portfolio/static/media/logoProyecto.f009f449320d54893155163446ca08f2.svg",
+    "static/media/logoInicio.svg": "/alan-portfolio/static/media/logoInicio.498d3d6914ae3cf43e25eb1000a08e94.svg",
+    "static/media/logoContacto.svg": "/alan-portfolio/static/media/logoContacto.4902a841fd60bc059fc7e8a8060f72da.svg",
+    "static/media/iconoWhatsApp.svg": "/alan-portfolio/static/media/iconoWhatsApp.24efb87e8d4828318d9826c4ee80ca05.svg",
+    "static/media/iconoLinkedIn.svg": "/alan-portfolio/static/media/iconoLinkedIn.1260973cbc18f5631b4ba3e4650f2192.svg",
     "index.html": "/alan-portfolio/index.html",
-    "main.f855e6bc.css.map": "/alan-portfolio/static/css/main.f855e6bc.css.map",
-    "main.cc5bf62b.js.map": "/alan-portfolio/static/js/main.cc5bf62b.js.map",
+    "main.4c2f5b21.css.map": "/alan-portfolio/static/css/main.4c2f5b21.css.map",
+    "main.1e164cdf.js.map": "/alan-portfolio/static/js/main.1e164cdf.js.map",
     "453.b440d27e.chunk.js.map": "/alan-portfolio/static/js/453.b440d27e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.cc5bf62b.js"
+    "static/css/main.4c2f5b21.css",
+    "static/js/main.1e164cdf.js"
   ]
 }
