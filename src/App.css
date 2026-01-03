@@ -1,20 +1,50 @@
-.App {
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #020617;
+}
+
+.app-desktop .App {
   text-align: center;
 }
+.app-desktop .fondo-fijo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./fondobloqueo.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.app-desktop .App-logo {
+  position: fixed;
+  top: 70px;
+  left: 400px;
+  height: 80vh;
+  animation: glow 4s ease-in-out infinite;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@keyframes glow{
+   0%   { filter: drop-shadow(0 0 5px rgba(47, 109, 255, 0.596));}
+   50%  { filter: drop-shadow(0 0 16px rgba(47, 109, 255, 0.932));}
+   100% { filter: drop-shadow(0 0 8px rgba(41, 112, 255, 0.918));}
 }
 
-.App-header {
-  background-color: #282c34;
+
+.app-desktop .App-logo-2{
+  position: fixed;
+  bottom: 460px;
+  right: 0;
+  left: 960px;
+  height: 30vh;
+  margin: 0;
+
+}
+
+.app-desktop .App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +54,152 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app-desktop .cuadro-horario{
+  background-color: rgba(6, 69, 204, 0.5);
+  border-radius: 40px;
+  position: fixed;
+  top: 70%;
+  left: 15%;
+  padding: 30px;
+  transform: translate(-50%, -50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-desktop .hora{
+  font-size: 80px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
+
+.app-desktop .fecha{
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.app-desktop .lockscreen{
+  position: fixed;
+  inset: 0;
+  background-image: url("./fondobloqueo.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 10;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.app-desktop .lockscreen.cerrar{
+  opacity: 0;
+  transform: scale(1.05);
+  pointer-events: none;
+}
+
+.app-desktop .btn-unlock {
+  margin-top: 38%;
+  margin-left: 83%;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 14px;
+  border: 2px solid #1f4fff;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.app-desktop .btn-unlock:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 25px rgba(47, 111, 255, 0.8);
+}
+
+.app-desktop .pie-de-pagina{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+
+/*Parte Movil*/
+
+.app-mobile .fondo-fijo{
+  background-image: url(./fondodesbloqueom.png);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.app-mobile .lockscreen{
+  position: fixed;
+  inset: 0;
+  background-image: url("./fondodesbloqueom.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 10;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.app-mobile .App-logo{
+  width: 80%;
+  margin-left: 39px;
+  margin-top: 53%;
+  opacity: 0.6;
+  animation: glow 4s ease-in-out infinite;
+}
+
+
+
+.app-mobile .App-logo-2{
+  position: fixed;
+  top: -21px;
+  right: 50%;
+  margin: 0;
+}
+
+.app-mobile .cuadro-horario{
+  background-color: rgba(6, 69, 204, 0.5);
+  border-radius: 40px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  padding: 20px 40px;
+  transform: translate(-50%, -50%);
+}
+
+.app-mobile .hora{
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+
+}
+
+.app-mobile .fecha{
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.app-mobile .lockscreen.cerrar{
+  opacity: 0;
+  transform: scale(1.05);
+  pointer-events: none;
+}
+
+.app-mobile .btn-unlock {
+  margin-top: 5%;
+  margin-left: 35%;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 14px;
+  border: 2px solid #1f4fff;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+
