@@ -29,7 +29,7 @@ function VentanaSobreMi({ onClose, isMobile }) {
         }
         return prev + 1; 
       });
-    }, 10000); 
+    }, 40); 
     
     return () => clearInterval(timer);
    } else {
