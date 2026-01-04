@@ -317,7 +317,7 @@
   width: 75%;
   max-width: 330px;
   margin-top: 180px;
-  margin-left: 15px;
+  margin-left: 13px;
   height: 200px;
   padding: 0px 0px;
   color: white;
@@ -379,7 +379,7 @@
 .logo-en-contacto-mobile{
   position: fixed;
   width: 300px;
-  margin-left: 28px;
+  margin-left: 32px;
   margin-top: 150px;
   z-index: -5; 
   opacity: 0.5;
@@ -388,7 +388,7 @@
 .logo2-en-contacto-mobile{
   position: fixed;
   width: 300px;
-  margin-left: 28px;
+  margin-left: 33px;
   margin-top: 370px;
   z-index: -5; 
   opacity: 0.5; 

@@ -59,12 +59,10 @@ function Home({ isMobile }) {
       </div>
       <div className="boton-mobile">
           <a
-            href="/CV.pdf"
-            download="Currículum Alan Rodriguez Agostini"
-            className="btn-mobile"
-          >
-            Descargar CV
-          </a>
+             href={`${process.env.PUBLIC_URL}/cv.pdf`}
+             download="Curriculum Alan Rodriguez Agostini"
+             className="btn-mobile"
+          > Descargar CV </a>
           <a
             href="https://github.com/alanro21"
             className="btn-mobile"
