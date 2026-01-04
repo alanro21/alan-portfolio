@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alan-portfolio/static/css/main.5df5e6b8.css",
-    "main.js": "/alan-portfolio/static/js/main.b03d5350.js",
+    "main.css": "/alan-portfolio/static/css/main.9c03c748.css",
+    "main.js": "/alan-portfolio/static/js/main.1abfefde.js",
     "static/js/453.b440d27e.chunk.js": "/alan-portfolio/static/js/453.b440d27e.chunk.js",
     "static/media/fondobloqueo.png": "/alan-portfolio/static/media/fondobloqueo.6a12d057e4efd2019d77.png",
     "static/media/fondodesbloqueom.png": "/alan-portfolio/static/media/fondodesbloqueom.31937fbb91e0528bd0b5.png",
@@ -23,12 +23,12 @@
     "static/media/iconoWhatsApp.svg": "/alan-portfolio/static/media/iconoWhatsApp.24efb87e8d4828318d9826c4ee80ca05.svg",
     "static/media/iconoLinkedIn.svg": "/alan-portfolio/static/media/iconoLinkedIn.1260973cbc18f5631b4ba3e4650f2192.svg",
     "index.html": "/alan-portfolio/index.html",
-    "main.5df5e6b8.css.map": "/alan-portfolio/static/css/main.5df5e6b8.css.map",
-    "main.b03d5350.js.map": "/alan-portfolio/static/js/main.b03d5350.js.map",
+    "main.9c03c748.css.map": "/alan-portfolio/static/css/main.9c03c748.css.map",
+    "main.1abfefde.js.map": "/alan-portfolio/static/js/main.1abfefde.js.map",
     "453.b440d27e.chunk.js.map": "/alan-portfolio/static/js/453.b440d27e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5df5e6b8.css",
-    "static/js/main.b03d5350.js"
+    "static/css/main.9c03c748.css",
+    "static/js/main.1abfefde.js"
   ]
 }
