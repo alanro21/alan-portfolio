@@ -109,7 +109,7 @@ function Home({ isMobile }) {
 
         <footer className='footer-mobile-home'>
           <div className='footer-contenido-home'>
-            <p>© 2025 - Alan Rodriguez Agostini</p>
+            <p>© 2026 - Alan Rodriguez Agostini</p>
             <p>Todos los derechos reservado</p>
           </div> 
         </footer> 

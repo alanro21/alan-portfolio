@@ -52,7 +52,7 @@ function VentanaSobreMi({ onClose, isMobile }) {
                </div>
                <footer className='footer-mobile-loading'>
                        <div className='footer-contenido-loading'>
-                        <p>© 2025 - Alan Rodriguez Agostini</p>
+                        <p>© 2026 - Alan Rodriguez Agostini</p>
                         <p>Todos los derechos reservado</p>
                         </div> 
                       </footer>
