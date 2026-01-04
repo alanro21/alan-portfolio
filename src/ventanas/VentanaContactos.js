@@ -124,10 +124,9 @@ function VentanaContactos({ onClose, isMobile }) {
                         <div className='info-adicional-contacto'>
                            <p>o sino por e-mail: alanrodriguezagostini71@gmail.com</p>
                         </div>
-                </div>
-            </div>
-
-        </div>
+                     </div>
+               </div>
+             </div>
     </div>
         
     );
