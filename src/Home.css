@@ -319,11 +319,11 @@
 
 .contenido-home-mobile{
   position: fixed;
-  width: 180px;
-  border-radius: 29px;
-  height: 190px;
+  width: 280px;
+  border-radius: 25px;
+  height: 120px;
   top: 200px;
-  left: 25px;
+  left: 40px;
   z-index: 5;
 
   background: linear-gradient(
@@ -349,7 +349,7 @@
   left: -6px;
   right: -6px;
   bottom: -6px;
-  border-radius: 35px;
+  border-radius: 25px;
   padding: 6px;
 
   background: linear-gradient(
@@ -396,11 +396,10 @@
 .boton-mobile{
   position: fixed;
   display: flex;
-  flex-direction: column;
   gap: 25px;
-  margin-left: 60%;
+  margin-left: 14%;
   padding: 5px;
-  margin-top: 64%;
+  margin-top: 95%;
   z-index: 5;
 }
 
