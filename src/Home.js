@@ -61,7 +61,7 @@ function Home({ isMobile }) {
           <a
              href="https://alanro21.github.io/alan-portfolio/cv.pdf"
              download="Curriculum Alan Rodriguez Agostini"
-             target="-blank"
+             target="_blank"
              rel="noopener noreferrer"
              className="btn-mobile"
           > Descargar CV</a>
@@ -108,7 +108,7 @@ function Home({ isMobile }) {
         )}
 
         <footer className='footer-mobile-home'>
-          <div className='footer-contenido-home'>
+          <div className='footer-contenido-home-mobile'>
             <p>© 2026 - Alan Rodriguez Agostini</p>
             <p>Todos los derechos reservado</p>
           </div> 
@@ -141,7 +141,7 @@ function Home({ isMobile }) {
 
         <div className="boton">
           <a
-            href="/CV.pdf"
+            href={`${process.env.PUBLIC_URL}/cv.pdf`}
             download="Currículum Alan Rodriguez Agostini"
             className="btn"
           >
@@ -199,6 +199,13 @@ function Home({ isMobile }) {
       {ventanaActiva === "contacto" && (
         <VentanaContacto onClose={cerrarVentana} />
       )}
+
+      <footer className='footer-home'>
+          <div className='footer-contenido-home'>
+            <p>© 2026 - Alan Rodriguez Agostini</p>
+            <p>Todos los derechos reservado</p>
+          </div> 
+        </footer> 
       
     </>
   );

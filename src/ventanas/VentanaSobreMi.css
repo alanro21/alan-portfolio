@@ -66,17 +66,13 @@
   );
 
 }
-.desktop .icono-contacto{
-  
+.desktop .icono-ventana-sobre-mi{
   width: 30px;
   height: 40px;
-
 }
 .desktop .titulo-ventana {
   font-size: 15px;
-  margin-right: 12%;
   font-weight: bold;
-  margin-bottom: 10px;
   height: 20px;
   width: 80px;
 }
@@ -426,7 +422,7 @@
 
 .footer-contenido-sobre-mi p {
   font-size: 0.8rem;
-  line-height: 1.2;
+  line-height: 1;
   margin: 0;
   color: #fdfcfc;
   font-family: 'Open Sans', sans-serif;

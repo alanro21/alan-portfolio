@@ -76,6 +76,11 @@
   width: 100px;
 }
 
+.icono-contacto{
+  width: 30px;
+  height: 40px;
+}
+
 .boton-cerrar-contacto{
   color: rgb(0, 46, 252);
   margin-top: 2px;

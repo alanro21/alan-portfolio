@@ -106,6 +106,7 @@ function VentanaContactos({ onClose, isMobile }) {
         <div className="ventana-contactos-container">
             <div className={`ventana-contactos ${estado}`}>
                 <div className='barra-ventana-contactos'>
+                  <img src={logocontacto} className='icono-contacto' alt='icono contacto'/>
                     <span className='titulo-ventana-contactos'>Sobre Mi</span>
                     <button className='boton-cerrar-contacto' onClick={cerrar}>X</button>
             </div>

@@ -100,11 +100,15 @@
 
 .titulo-ventana {
   font-size: 15px;
-  margin-left: 80px;
+  margin-right: 2%;
   font-weight: bold;
-  margin-top: 10px;
   height: 20px;
   width: 80px;
+}
+
+.icono-proyecto{
+  width: 30px;
+  height: 40px;
 }
 
 .lista-proyectos{
@@ -116,13 +120,12 @@
 }
 
 .imagen-proyecto{
-    width: 100%;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
     display: block;
 }
-
 
 .proyecto-1, .proyecto-2, .proyecto-3{
     position: relative;
@@ -146,9 +149,16 @@
 }
 
 
-.proyecto-1 h3, .proyecto-2 h3, .proyecto-3 h3{
+.proyecto-1 h3, .proyecto-2 h3{
     color: white;
     font-size: 12px;
+}
+
+.proyecto-3 h3{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .boton-mas-info{
@@ -348,7 +358,7 @@
   display: none;
 }
 
-.imagen-proyecto{
+.imagen-proyecto-mobile{
     width: 40%;
     height: auto;
     border-radius: 10px;
@@ -357,7 +367,7 @@
     margin-left: 75px;
 }
 
-.imagen-proyecto2{
+.imagen-proyecto2-mobile{
     width: 95%;
     height: auto;
     border-radius: 10px;
