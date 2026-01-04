@@ -61,6 +61,8 @@ function Home({ isMobile }) {
           <a
              href="https://alanro21.github.io/alan-portfolio/cv.pdf"
              download="Curriculum Alan Rodriguez Agostini"
+             target="-blank"
+             rel="noopener noreferrer"
              className="btn-mobile"
           > Descargar CV</a>
           <a
