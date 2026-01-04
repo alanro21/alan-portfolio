@@ -106,6 +106,13 @@ function Home({ isMobile }) {
         {ventanaActiva === "contacto" && (
           <VentanaContacto onClose={cerrarVentana} isMobile={isMobile}/>
         )}
+
+        <footer className='footer-mobile-home'>
+          <div className='footer-contenido-home'>
+            <p>© 2025 - Alan Rodriguez Agostini</p>
+            <p>Todos los derechos reservado</p>
+          </div> 
+        </footer> 
       </div>
     );
   }
@@ -192,6 +199,7 @@ function Home({ isMobile }) {
       {ventanaActiva === "contacto" && (
         <VentanaContacto onClose={cerrarVentana} />
       )}
+      
     </>
   );
 }

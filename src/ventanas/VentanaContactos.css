@@ -151,3 +151,277 @@
     color: lightgray;
 }
 
+/*Parte Mobile*/
+
+.contactos-loading{
+  position: fixed;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/pantallacarga.png);
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-de-carga-contac{
+  position: relative;
+  margin-top: -25px;
+  margin-left: 190px;
+}
+
+.logo-contactos-mobile{
+  position: relative;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  margin-top: 138px;
+}
+
+.barra-carga-container-contact{
+  width: 80%;
+  height: 10px;
+  background: #2b2a2a;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.barra-carga-contac{
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(
+    210deg,
+    rgb(0, 4, 5),
+    rgb(3, 38, 194),
+    rgb(0, 4, 5)
+  );
+  border-radius: 3px;
+  transition: width 0.2s ease;
+}
+
+.footer-mobile-loading-contac{
+   position: fixed;
+  bottom: env(safe-area-inset-bottom);
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  max-width: 360px;
+
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer-contenido-loading-contac{
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+
+}
+
+.footer-contenido-loading-contac p{
+  font-size: 0.8rem;
+  line-height: 1.2;
+  margin: 0;
+  color: #fdfcfc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contenido-contactos-mobile{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  background-image: url(../assets/seccioncontacto.png);
+  z-index: 10;
+}
+
+.contenido-flex-mobile-contac{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.boton-cerrar-contactos-mobile{
+  position: fixed;
+  width: 150px;
+  height: 40px;
+  margin-right: 105%;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 4, 5),
+    rgb(3, 38, 194),
+    rgb(0, 4, 5)
+  ); 
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  box-shadow: 
+     inset 0 0 20px rgb(2, 33, 211),
+     0 10px 40px rgba(0, 0, 0, 0.795);
+   z-index: 50;   
+}
+
+.boton-cerrar-contactos-mobile::before{
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 35px;
+  padding: 6px;
+
+  background: linear-gradient(
+    45deg,
+    rgb(0, 4, 5),
+    rgb(3, 38, 194),
+    rgb(0, 4, 5)
+  ); 
+
+  -webkit-mask: 
+    linear-gradient(#000 0 0) content-box, 
+    linear-gradient(#020da8 0 0);
+  -webkit-mask-composite: xor;
+  
+  mask:
+   linear-gradient(#000 0 0) content-box,
+   linear-gradient(#020da8 0 0);
+   mask-composite: exclude; 
+
+  filter: blur(1px);
+}
+
+.seccion-contacto-mobile{
+  width: 250px;
+  margin-top: 180px;
+  margin-left: 22px;
+  height: 200px;
+  padding: 0px 0px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.4;
+  padding: 0px 30px;
+  border-radius: 10px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(0, 4, 5, 0.795),
+    rgba(3, 38, 194, 0.562),
+    rgba(0, 4, 5, 0.473)
+  ); 
+
+  box-shadow: 
+    inset 0 0 10px rgba(2, 33, 211, 0.712),
+         0 10px 40px rgba(0, 0, 0, 0.623);
+  
+  z-index: 1;       
+
+}
+
+.seccion-contacto-mobile h2{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.seccion-contacto-mobile p{
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.redes-contactos-mobile{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 110%;
+  margin-left: -10px;
+  margin-bottom: 100px;
+}
+
+.icono-linkedin-mobile, .icono-whatsapp-mobile{
+    width: 120px;
+    margin-top: -30px;
+}
+
+.info-adicional-contacto-mobile{
+    text-align: center;
+    margin-top: -120px;
+}
+
+.info-adicional-contacto-mobile p{
+  color: lightgray;
+  font-size: 0.8rem;
+}
+
+.logo-en-contacto-mobile{
+  position: fixed;
+  width: 300px;
+  margin-left: 28px;
+  margin-top: 150px;
+  z-index: -5; 
+  opacity: 0.5;
+}
+
+.logo2-en-contacto-mobile{
+  position: fixed;
+  width: 300px;
+  margin-left: 28px;
+  margin-top: 370px;
+  z-index: -5; 
+  opacity: 0.5; 
+}
+
+.footer-mobile-contac{
+  position: fixed;
+  bottom: env(safe-area-inset-bottom);
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  max-width: 360px;
+
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer-contenido-contac-mobile{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+
+}
+
+.footer-contenido-contac-mobile p{
+  font-size: 0.8rem;
+  line-height: 1.2;
+  margin: 0;
+  color: #fdfcfc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+

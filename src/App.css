@@ -192,7 +192,7 @@ body{
 
 .app-mobile .btn-unlock {
   margin-top: 5%;
-  margin-left: 35%;
+  margin-left: 33%;
   padding: 14px 32px;
   font-size: 1.1rem;
   font-family: 'Open Sans', sans-serif;
@@ -201,5 +201,3 @@ body{
   background: rgba(0, 0, 0, 0.75);
   color: white;
 }
-
-

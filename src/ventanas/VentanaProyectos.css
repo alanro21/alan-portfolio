@@ -164,3 +164,282 @@
     font-size: 15px;
     cursor: pointer;
 }
+
+/*Parte Mobile*/
+
+.proyectos-loading{
+  position: fixed;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/pantallacarga.png);
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-de-carga-proyec{
+  position: relative;
+  margin-top: -25px;
+  margin-left: 190px;
+}
+
+.logo-proyecto-mobile{
+  position: relative;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  margin-top: 138px;
+}
+
+.barra-carga-container-proyec{
+  width: 80%;
+  height: 10px;
+  background: #2b2a2a;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.barra-carga-proyect{
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(
+    210deg,
+    rgb(0, 4, 5),
+    rgb(3, 38, 194),
+    rgb(0, 4, 5)
+  );
+  border-radius: 3px;
+  transition: width 0.2s ease;
+}
+
+.footer-mobile-loading-proyec{
+  position: fixed;
+  bottom: env(safe-area-inset-bottom);
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  max-width: 360px;
+
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer-contenido-loading-proyect{
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.footer-contenido-loading-proyect p {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  margin: 0;
+  color: #fdfcfc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contenido-proyectos-mobile{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  background-image: url(../assets/seccionproyectos.png);
+  z-index: 10;
+}
+
+.contenido-flex-mobile-proyect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.boton-cerrar-proyecto-mobile{
+  position: fixed;
+  width: 150px;
+  height: 40px;
+  margin-right: 105%;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 4, 5),
+    rgb(3, 38, 194),
+    rgb(0, 4, 5)
+  ); 
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  box-shadow: 
+     inset 0 0 20px rgb(2, 33, 211),
+     0 10px 40px rgba(0, 0, 0, 0.795);
+
+}
+
+.boton-cerrar-proyecto-mobile::before{
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 35px;
+  padding: 6px;
+
+  background: linear-gradient(
+    45deg,
+    rgb(0, 4, 5),
+    rgb(3, 38, 194),
+    rgb(0, 4, 5)
+  ); 
+
+  -webkit-mask: 
+    linear-gradient(#000 0 0) content-box, 
+    linear-gradient(#020da8 0 0);
+  -webkit-mask-composite: xor;
+  
+  mask:
+   linear-gradient(#000 0 0) content-box,
+   linear-gradient(#020da8 0 0);
+   mask-composite: exclude; 
+
+  filter: blur(1px);
+}
+
+.lista-proyectos-moblie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    overflow-y: auto;
+    overflow-y: hidden;
+
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+
+    padding: 20px 10px;
+}
+
+.lista-proyectos-moblie > div{
+  flex: 0 0 85%;
+  scroll-snap-align: center;
+}
+
+.lista-proyectos-moblie::-webkit-scrollbar{
+  display: none;
+}
+
+.imagen-proyecto{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+    margin-left: 75px;
+}
+
+.imagen-proyecto2{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+    margin-left: 9px;
+}
+
+.proyecto-1-mobile, .proyecto-2-mobile, .proyecto-3-mobile{
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50px;
+    height: 390px;
+    top: 100px;
+    overflow: hidden;
+
+    background: linear-gradient(
+    135deg,
+    rgba(0, 4, 5, 0.795),
+    rgba(3, 38, 194, 0.562),
+    rgba(0, 4, 5, 0.473)
+
+  );
+}
+
+.proyecto-1-mobile h3, .proyecto-2-mobile h3{
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.proyecto-3-mobile h3 {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.boton-mas-info-mobile{
+    display: block;
+    margin: 30px;
+    padding: 6px 6px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-mobile-proyec-mobile{
+  position: fixed;
+  bottom: env(safe-area-inset-bottom);
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  max-width: 360px;
+
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.footer-contenido-proyec-mobile{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+
+}
+
+.footer-contenido-proyec-mobile p{
+  font-size: 0.8rem;
+  line-height: 1.2;
+  margin: 0;
+  color: #fdfcfc;
+  font-family: 'Open Sans', sans-serif;
+}

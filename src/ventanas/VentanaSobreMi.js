@@ -29,7 +29,7 @@ function VentanaSobreMi({ onClose, isMobile }) {
         }
         return prev + 1; 
       });
-    }, 10000); 
+    }, 40); 
     
     return () => clearInterval(timer);
    } else {
@@ -86,9 +86,9 @@ function VentanaSobreMi({ onClose, isMobile }) {
                             enfrentar desafíos y crecer dentro del mundo del desarrollo de software.</p>
                     </div>
                  </div>
-                 <footer className='footer-mobile'>
-                       <div className='footer-contenido'>
-                        <p>© 2025 - Alan Rodriguez Agostini</p>
+                 <footer className='footer-mobile-sobre-mi'>
+                       <div className='footer-contenido-sobre-mi'>
+                        <p>© 2026 - Alan Rodriguez Agostini</p>
                         <p>Todos los derechos reservado</p>
                         </div> 
                       </footer>   
